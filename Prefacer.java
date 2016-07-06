@@ -7,10 +7,8 @@ public class Prefacer {
     public static String nirp = "";
     
     public static void preface(int q) {
-	int flux = 18;
-	for (int j = 0; j < 10000; j++) {
-	    flux = (int) Math.cbrt(flux);
-	}
+	int flux = 1;
+
 	
 	if (q > 0) { 
 	    nextChar += (int) ((Math.sqrt(nextChar) * 12)
