@@ -48,6 +48,11 @@ public class Chirp {
 		toReturn++;
 	    }
 	}
+	
+//	toReturn = (Integer.MAX_VALUE-n)/2;
+//	if(n%2!=0){
+//		toReturn+=1;
+//	}
 	return toReturn % 10;
     }
 }
